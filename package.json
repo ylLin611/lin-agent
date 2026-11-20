@@ -1,0 +1,25 @@
+{
+  "name": "lin-agent",
+  "version": "0.0.1",
+  "description": "基于 pi agent 开发的实验性 agent 项目",
+  "private": "true",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "agent"
+  ],
+  "author": "lin",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@mariozechner/pi-agent-core": "^0.73.1",
+    "@mariozechner/pi-ai": "^0.73.1",
+    "dotenv": "^18.0.10"
+  }
+}
